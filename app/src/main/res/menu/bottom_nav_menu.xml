@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/advanced"
+        android:icon="@drawable/baseline_menu_24"
+        android:title="Advanced"
+        />
+    <item
+        android:id="@+id/mission"
+        android:icon="@drawable/baseline_drafts_24"
+        android:title="Mission"
+        />
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/baseline_home_24"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/analyze"
+        android:icon="@drawable/baseline_analytics_24"
+        android:title="Analytics" />
+
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/baseline_person_24"
+        android:title="Profile" />
+</menu>

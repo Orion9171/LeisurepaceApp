@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <!-- Spinner for BPM/Time Selection -->
+    <Spinner
+        android:id="@+id/spinner_bpm_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="12dp"
+        android:background="@android:color/transparent" />
+
+    <!-- LinearLayout for step count and time -->
+    <LinearLayout
+        android:id="@+id/timimg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp">
+
+        <!-- Step Count TextView -->
+        <Button
+            android:id="@+id/btn_start"
+            android:layout_width="98dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="#1AC9E0"
+            android:padding="12dp"
+            android:text="開 始"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_step_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:text="步數：0"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <!-- Time TextView -->
+        <TextView
+            android:id="@+id/tv_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="時間：30:00"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <!-- Button for Start -->
+
+    <!-- ImageView for Background Image -->
+
+    <ImageView
+        android:id="@+id/iv_background"
+        android:layout_width="399dp"
+        android:layout_height="588dp"
+        android:layout_weight="1"
+        android:scaleType="centerCrop"
+        android:src="@drawable/main_bg" />
+
+    <!-- Bottom Navigation View -->
+
+</LinearLayout>
