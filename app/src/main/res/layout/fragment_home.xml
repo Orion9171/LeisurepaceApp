@@ -8,17 +8,17 @@
     <!-- Spinner for BPM/Time Selection -->
     <Spinner
         android:id="@+id/spinner_bpm_time"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="380dp"
+        android:layout_height="109dp"
+        android:background="@android:color/transparent"
         android:gravity="center"
-        android:padding="12dp"
-        android:background="@android:color/transparent" />
+        android:padding="12dp" />
 
     <!-- LinearLayout for step count and time -->
     <LinearLayout
         android:id="@+id/timimg"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="382dp"
+        android:layout_height="101dp"
         android:gravity="center"
         android:orientation="horizontal"
         android:paddingTop="16dp"
@@ -62,8 +62,8 @@
 
     <ImageView
         android:id="@+id/iv_background"
-        android:layout_width="399dp"
-        android:layout_height="588dp"
+        android:layout_width="422dp"
+        android:layout_height="wrap_content"
         android:layout_weight="1"
         android:scaleType="centerCrop"
         android:src="@drawable/main_bg" />
